@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SecretKeyPersonalSite')
 #DEBUG = os.environ.get('DebugKey')
 DEBUG = True
 
-ALLOWED_HOSTS = ['shaunfedrick.herokuapp.com']
+ALLOWED_HOSTS = ['shaunfedrick.herokuapp.com','shaunfedrick.com']
 
 
 
