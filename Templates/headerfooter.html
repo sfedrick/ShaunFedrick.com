@@ -39,16 +39,17 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Updates</a></li>
-							<li><a href="about.html">About me</a></li>
-							<li><a href="portfolio.html">Portfolio</a></li>
-							<li><a href="art.html">Art</a></li>
+							<li {% if updates_active %} class="active"{% else %} {% endif %}><a href="updates">Updates</a></li>
+							<li{% if aboutme_active %} class="active"{% else %} {% endif %}><a href="aboutme">About me</a></li>
+							<li {% if portfolio_active %} class="active"{% else %} {% endif %}><a href="portfolio">Portfolio</a></li>
+							<li{% if art_active %} class="active"{% else %} {% endif %}><a href="art">Art</a></li>
+							<li {% if resume_active %} class="active"{% else %} {% endif %}><a href="resume">Resume</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/shaun-fedrick-0b2069144/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.facebook.com/shaun.fedrick.1" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/shaun._.shine/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/sfedrick" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
