@@ -5,11 +5,11 @@ from django.template.loader import render_to_string
 
 def home(request):
     #updates page is the home page
-    home_var=render_to_string("homepage.html")
-    return render(request,"headerfooter.html",{'content':home_var,'home_active':True})
+    home_var=render_to_string("aboutme.html")
+    return render(request,"headerfooter.html",{'content':home_var})
 def updates(request):
     #updates page is the home page
-    updates_var=render_to_string("homepage.html")
+    updates_var=render_to_string("updates.html")
     return render(request,"headerfooter.html",{'content':updates_var,'updates_active':True})
 def aboutme(request):
     about_var=render_to_string("aboutme.html")
