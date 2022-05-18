@@ -1,0 +1,19 @@
+rounded { object-fit: cover;
+     border-radius: 50%;
+      height: 100px; 
+      width: 100px; }
+
+      .image-cropper {
+          
+          width: 50%;
+          /*make left (100%-width)/2*/
+          left:25%;
+          position: relative;
+          overflow: hidden;
+          border-radius: 100%;
+        }
+        .profile-pic{
+          position:relative; 
+          width:100%;
+        }
+        
