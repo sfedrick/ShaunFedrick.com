@@ -23,11 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SecretKeyPersonalSite')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = (os.environ.get('DebugKey')=='True')
-DEBUG=True
+DEBUG = (os.environ.get('DebugKey')=='True')
 
 
-ALLOWED_HOSTS = ['shaunfedrick.herokuapp.com','www.shaunfedrick.com']
+
+ALLOWED_HOSTS = ['127.0.0.1','shaunfedrick.herokuapp.com','www.shaunfedrick.com']
 
 
 
